@@ -41,6 +41,24 @@
 								"definition": "dumpEnv",
 								"command": "env",
 								"properties": null
+							},
+							{
+								"name": "listBuild",
+								"definition": "listBuild",
+								"command": "ls -a /tmp/build",
+								"properties": null
+							},
+							{
+								"name": "listInputBase",
+								"definition": "listInputBase",
+								"command": "ls -a $TASK_INPUT_BASE_DIR",
+								"properties": null
+							},
+							{
+								"name": "listCliOut",
+								"definition": "listCliOut",
+								"command": "ls -a TASK_INPUT_BASE_DIR/cli-out",
+								"properties": null
 							}
 						],
 						"docker_options": {}
