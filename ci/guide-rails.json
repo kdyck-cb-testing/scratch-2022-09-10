@@ -44,6 +44,7 @@
 							}
 						],
 						"docker_options": {
+							"docker_registry_alias_id": "f2747933-0a4b-4ba8-743b-7296b63a05b1",
 							"repository": "cpp:5.2.0"
 						}
 					}
