@@ -61,12 +61,6 @@
 								"properties": null
 							},
 							{
-								"name": "inspectCerts",
-								"definition": "inspectCerts",
-								"command": "echo TLS certificate:\ncat ${TLS_CERTIFICATE}\n\necho TLS private key\ncat ${TLS_PRIVATE_KEY}\n",
-								"properties": null
-							},
-							{
 								"name": "getAccessKey",
 								"definition": "getAccessKey",
 								"command": "echo ${ACCESS_KEY} | base64",
