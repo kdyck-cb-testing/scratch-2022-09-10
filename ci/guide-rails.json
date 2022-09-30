@@ -67,9 +67,9 @@
 								"properties": null
 							},
 							{
-								"name": "listGrProps",
-								"definition": "listGrProps",
-								"command": "ls -la ${GR_RUNTIME_PROPERTIES_FILE_PATH}",
+								"name": "dumpSecretValues",
+								"definition": "dumpSecretValues",
+								"command": "echo Secret values files contents (${SECRET_VALUES_FILE})...\ncat ${SECRET_VALUES_FILE}",
 								"properties": null
 							}
 						],
