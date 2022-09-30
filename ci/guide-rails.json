@@ -59,6 +59,12 @@
 								"definition": "listCliOut",
 								"command": "ls -a ${TASK_INPUT_BASE_DIR}/cli-out",
 								"properties": null
+							},
+							{
+								"name": "inspectCerts",
+								"definition": "inspectCerts",
+								"command": "echo TLS certificate:\ncat ${TLS_CERTIFICATE}\n\necho TLS private key\ncat ${TLS_PRIVATE_KEY}\n",
+								"properties": null
 							}
 						],
 						"docker_options": {}
