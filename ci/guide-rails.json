@@ -1,6 +1,6 @@
 {
 	"metadata": {
-		"version": 1
+		"version": 2
 	},
 	"application": {
 		"name": "scratch-2022-09-10",
@@ -43,7 +43,10 @@
 								"properties": null
 							}
 						],
-						"docker_options": {}
+						"docker_options": {
+							"docker_registry_alias_id": "b7538d0f-4373-4d39-7300-76e6642699b1",
+							"repository": "cpp:latest"
+						}
 					}
 				]
 			}
@@ -51,13 +54,7 @@
 		"exit_actions": {},
 		"default_properties": [],
 		"deployment_files": [],
-		"application_init": {},
-		"releases": [
-			{
-				"name": "consul",
-				"version": "latest"
-			}
-		]
+		"application_init": {}
 	},
 	"organization": {
 		"orgname": "kdyck-cb-testing"
