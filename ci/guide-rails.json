@@ -4,7 +4,7 @@
 	},
 	"application": {
 		"name": "scratch-2022-09-10",
-		"language": "",
+		"language": "C",
 		"artifact_store": {
 			"repositories": null
 		}
@@ -43,10 +43,7 @@
 								"properties": null
 							}
 						],
-						"docker_options": {
-							"docker_registry_alias_id": "f2747933-0a4b-4ba8-743b-7296b63a05b1",
-							"repository": "cpp:5.2.0"
-						}
+						"docker_options": {}
 					}
 				]
 			}
