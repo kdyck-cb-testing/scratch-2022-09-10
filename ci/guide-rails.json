@@ -57,7 +57,7 @@
 							{
 								"name": "listCliOut",
 								"definition": "listCliOut",
-								"command": "ls -a ${TASK_INPUT_BASE_DIR}/cli-out",
+								"command": "ls -a ${CLI_OUT_DIR}",
 								"properties": null
 							},
 							{
@@ -69,7 +69,7 @@
 							{
 								"name": "dumpSecretValues",
 								"definition": "dumpSecretValues",
-								"command": "echo \"Secret values files contents...\"\ncat ${SECRET_VALUES_FILE}",
+								"command": "echo \"Secret values files contents...\"\ncat ${CLI_OUT_DIR}/${SECRET_VALUES_FILE}",
 								"properties": null
 							}
 						],
