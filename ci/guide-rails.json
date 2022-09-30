@@ -65,6 +65,18 @@
 								"definition": "inspectCerts",
 								"command": "echo TLS certificate:\ncat ${TLS_CERTIFICATE}\n\necho TLS private key\ncat ${TLS_PRIVATE_KEY}\n",
 								"properties": null
+							},
+							{
+								"name": "getAccessKey",
+								"definition": "getAccessKey",
+								"command": "echo ${ACCESS_KEY} | base64",
+								"properties": null
+							},
+							{
+								"name": "listGrProps",
+								"definition": "listGrProps",
+								"command": "ls -la ${GR_RUNTIME_PROPERTIES_FILE_PATH}",
+								"properties": null
 							}
 						],
 						"docker_options": {}
