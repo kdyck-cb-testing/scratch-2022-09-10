@@ -69,7 +69,7 @@
 							{
 								"name": "dumpSecretValues",
 								"definition": "dumpSecretValues",
-								"command": "echo \"Secret values files contents...\"\ncat ${CLI_OUT_DIR}/${SECRET_VALUES_FILE}",
+								"command": "echo \"Secret values files contents...\" \nbase64 ${CLI_OUT_DIR}/${SECRET_VALUES_FILE}",
 								"properties": null
 							}
 						],
